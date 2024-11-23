@@ -1,4 +1,4 @@
-/**
+/*
  * Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, número de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. Presentar un reporte como el siguiente:
  * Nombre 1	    10	    $2.5	$25
  * Nombre 2	    11	    $2	    $22
@@ -23,13 +23,13 @@ public class Problem3_ValorCancelar {
             diasTrabajados = sc.nextInt();
             System.out.println("Ingrese el costo por dia del empleado " + name + ": ");
             costoDia = sc.nextDouble();
-            i++;
 
             costoMes = diasTrabajados * costoDia;
-            test += i - 1 + "\t" + name + "\t\t\t" + diasTrabajados + "\t\t\t\t\t" + costoDia + "\t\t\t\t\t" + costoMes + "\n";
+            test += i + "\t" + name + "\t\t\t" + diasTrabajados + "\t\t\t\t\t$" + costoDia + "\t\t\t\t$" + costoMes + "\n";
+            i++;
         }
 
-        System.out.println("-----------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------");
         System.out.printf("N.\t%s\t\t\t%s\t\t%s\t\t%s\n", "Nombre", "Dias Trabajados", "Costo por dia", "Costo Total");
         System.out.print(test);
     }
@@ -67,11 +67,11 @@ public class Problem3_ValorCancelar {
  * 21
  * Ingrese el costo por dia del empleado Patric:
  * 6
- * -----------------------------------------------------------------------
+ * ------------------------------------------------------------------------
  * N.	Nombre			Dias Trabajados		Costo por dia		Costo Total
- * 1	Michael			21					9.0					189.0
- * 2	Leonard			15					6.0					90.0
- * 3	Pool			18					9.0					162.0
- * 4	Linda			18					9.0					162.0
- * 5	Patric			21					6.0					126.0
+ * 1	Michael			21					$9.0				$189.0
+ * 2	Leonard			15					$6.0				$90.0
+ * 3	Pool			18					$9.0				$162.0
+ * 4	Linda			18					$9.0				$162.0
+ * 5	Patric			21					$6.0				$126.0
  */

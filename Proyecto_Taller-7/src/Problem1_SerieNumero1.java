@@ -1,11 +1,11 @@
-/**
- * Realizar un programa Java que permita presentar en pantalla la siguiente secuencia: </br>
- * 1/10 </br>
- * 2/11 </br>
- * 3/12 </br>
- * 4/13 </br>
- * 5/14 </br>
- * 6/15 </br>
+/*
+ * Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
+ * 1/10
+ * 2/11
+ * 3/12
+ * 4/13
+ * 5/14
+ * 6/15
  */
 
 public class Problem1_SerieNumero1 {
