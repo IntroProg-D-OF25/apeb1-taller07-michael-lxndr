@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Problem6_VentaDescuento {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String cliente, tipoCli, out = "";
+        String cliente, tipoCli, output = "";
         double costoPC, descuento;
         int i = 1, j = 7;
 
@@ -32,10 +32,68 @@ public class Problem6_VentaDescuento {
             if (tipoCli.equals("2")) {
                 descuento = costoPC * 0.8;
             }
-            out += cliente + "\t\t\t\t\t\t\tTipo " + tipoCli + "\t\t\t\t\t$" + descuento + "\n";
+
+            output += cliente + "\t\t\t\t\tTipo " + tipoCli + "\t\t\t\t\t$" + descuento + "\n";
+
             i++;
         }
+
+        System.out.println("---------------------------------------------------------------------");
         System.out.print("Nombre del cliente: " + "\t\t" + "Tipo de cliente" + "\t\t\t" + "Precio con descuento\n");
-        System.out.print(out);
+        System.out.print(output);
     }
 }
+
+/*
+ * Ingrese el nombre del cliente:
+ * Michael
+ * Ingrese el costro de la computadora:
+ * 900
+ * Ingrese el tipo de cliente:    (1||2)
+ * 2
+ * Ingrese el nombre del cliente:
+ * Leonard
+ * Ingrese el costro de la computadora:
+ * 777
+ * Ingrese el tipo de cliente:    (1||2)
+ * 1
+ * Ingrese el nombre del cliente:
+ * Pool.
+ * Ingrese el costro de la computadora:
+ * 999
+ * Ingrese el tipo de cliente:    (1||2)
+ * 1
+ * Ingrese el nombre del cliente:
+ * Linda
+ * Ingrese el costro de la computadora:
+ * 1500
+ * Ingrese el tipo de cliente:    (1||2)
+ * 2
+ * Ingrese el nombre del cliente:
+ * Patric
+ * Ingrese el costro de la computadora:
+ * 1200
+ * Ingrese el tipo de cliente:    (1||2)
+ * 1
+ * Ingrese el nombre del cliente:
+ * Katty
+ * Ingrese el costro de la computadora:
+ * 666
+ * Ingrese el tipo de cliente:    (1||2)
+ * 1
+ * Ingrese el nombre del cliente:
+ * Pose.
+ * Ingrese el costro de la computadora:
+ * 2100
+ * Ingrese el tipo de cliente:    (1||2)
+ * 2
+ * ---------------------------------------------------------------------
+ * Nombre del cliente: 		Tipo de cliente			Precio con descuento
+ * Michael					Tipo 2					$720.0
+ * Leonard					Tipo 1					$699.3000000000001
+ * Pool.					Tipo 1					$899.1
+ * Linda					Tipo 2					$1200.0
+ * Patric					Tipo 1					$1080.0
+ * Katty					Tipo 1					$599.4
+ * Pose.					Tipo 2					$1680.0
+ */
