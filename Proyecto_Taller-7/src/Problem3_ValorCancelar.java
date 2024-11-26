@@ -36,7 +36,7 @@ public class Problem3_ValorCancelar {
 }
 
 /*
- * Salida de resultados
+ * Salida de resultados:
  * Ingrese el nombre del empleado 1:
  * Michael
  * Ingrese el numero de dias trabajados de Michael:

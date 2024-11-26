@@ -22,7 +22,7 @@ public class Problem2_SerieNumero2 {
 }
 
 /*
- * Salida de resultados
+ * Salida de resultados:
  * 5/10
  * 10/12
  * 15/14

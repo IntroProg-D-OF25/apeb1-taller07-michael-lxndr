@@ -37,6 +37,7 @@ public class Problem5_IngresarEstudiantes {
 }
 
 /*
+ * Salida de resultados:
  * Ingrese el nombre del estudiante:   (1/4)
  * Michael
  * Ingrese el promedio del estudiante 1:

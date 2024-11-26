@@ -45,6 +45,7 @@ public class Problem6_VentaDescuento {
 }
 
 /*
+ * Salida de resultados:
  * Ingrese el nombre del cliente:
  * Michael
  * Ingrese el costro de la computadora:
@@ -54,7 +55,7 @@ public class Problem6_VentaDescuento {
  * Ingrese el nombre del cliente:
  * Leonard
  * Ingrese el costro de la computadora:
- * 777
+ * 2100
  * Ingrese el tipo de cliente:    (1||2)
  * 1
  * Ingrese el nombre del cliente:
@@ -90,7 +91,7 @@ public class Problem6_VentaDescuento {
  * ---------------------------------------------------------------------
  * Nombre del cliente: 		Tipo de cliente			Precio con descuento
  * Michael					Tipo 2					$720.0
- * Leonard					Tipo 1					$699.3000000000001
+ * Leonard					Tipo 1					$1680.0
  * Pool.					Tipo 1					$899.1
  * Linda					Tipo 2					$1200.0
  * Patric					Tipo 1					$1080.0

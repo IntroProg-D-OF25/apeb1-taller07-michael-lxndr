@@ -21,7 +21,7 @@ public class Problem1_SerieNumero1 {
 }
 
 /*
- * Salida de resultados
+ * Salida de resultados:
  * 1/10
  * 2/11
  * 3/12

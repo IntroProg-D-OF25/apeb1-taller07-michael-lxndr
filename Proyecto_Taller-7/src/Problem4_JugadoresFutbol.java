@@ -56,7 +56,7 @@ public class Problem4_JugadoresFutbol {
 }
 
 /*
- * Salida de resultados
+ * Salida de resultados:
  * Ingrese el nombre del jugador:    (1)
  * LeonardPM
  * Ingrese la posición de LeonardPM:
